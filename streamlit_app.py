@@ -1,5 +1,3 @@
-import sys
-
 # Define the number groups as lists of two numbers each
 anger = [14, 41]
 sky_doctor = [13, 31]
