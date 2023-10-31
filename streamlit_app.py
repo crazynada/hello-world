@@ -9,15 +9,16 @@ five_ghosts = [18, 81]
 death = [12, 21]
 
 # Prompt the user for the telephone number and validate the input
-while True:
-    while True:
-        tele_num =str(input("輸入電話號碼 (10 digits): "))
+# while True:
+#     while True:
+#         tele_num =str(input("輸入電話號碼 (10 digits): "))
         
-        if tele_num.isdigit() and len(tele_num) == 10:
-            break
-        else:
-            print("請重新輸入")
+#         if tele_num.isdigit() and len(tele_num) == 10:
+#             break
+#         else:
+#             print("請重新輸入")
 
+    tele_num = "0939059913"
     # Split the telephone number into individual pairs of digits
     number_groups = [tele_num[i:i+2] for i in range(len(tele_num) - 1)]
     number_groups.append(tele_num[-2:])
